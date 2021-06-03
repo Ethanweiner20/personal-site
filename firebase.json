@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "site": "ethan-weiner",
+    "public": "dist",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
