@@ -24,16 +24,23 @@
         </div>
       </div>
       <div class="layer row" id="layer-3">
-        <div class="col-6 py-auto px-auto">
+        <div class="col-4 py-auto px-auto">
           <router-link :to="{ name: 'Projects' }"
             ><h3 class="node mx-auto" id="projects-heading">
               Projects
             </h3></router-link
           >
         </div>
-        <div class="col-6 py-auto px-auto">
+
+        <div class="col-4 py-auto px-auto">
           <router-link :to="{ name: 'Skills' }"
             ><h3 class="node mx-auto" id="skills">Skills</h3></router-link
+          >
+        </div>
+
+        <div class="col-4 py-auto px-auto">
+          <router-link :to="{ name: 'Writing' }"
+            ><h3 class="node mx-auto" id="writing">Writing</h3></router-link
           >
         </div>
       </div>

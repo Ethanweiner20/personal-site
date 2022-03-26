@@ -3,6 +3,35 @@
     <Header title="PROJECTS" />
 
     <div id="projects" class="p-5">
+      <!-- Visualize the Web -->
+      <Project
+        project_name="visualize-the-web"
+        project_url="https://visualize-the-web.herokuapp.com/"
+        mode="dark"
+      >
+        <template v-slot:carousel-items>
+          <div class="carousel-item active">
+            <img
+              src="../assets/images/visualize_the_web_1.png"
+              alt="Visualize the Web"
+              class="d-block w-100"
+            />
+            <Caption
+              site_link="https://visualize-the-web.herokuapp.com/"
+              youtube_link="https://www.youtube.com/watch?v=ybKiQPi6t5Q"
+              github_link="https://github.com/Ethanweiner20/web-visualizer"
+            />
+          </div>
+
+          <div class="carousel-item">
+            <img
+              src="../assets/images/visualize_the_web_2.png"
+              alt="Visualize the Web"
+              class="d-block w-100"
+            />
+          </div>
+        </template>
+      </Project>
       <!-- Playlist Blender -->
       <Project
         project_name="playlist-blender"

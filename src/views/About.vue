@@ -18,7 +18,16 @@
             ></div>
           </div>
 
-          <!-- Place this tag where you want the button to render. -->
+          <div class="social-button d-inline">
+            <a
+              class="github-button social-button"
+              href="https://github.com/EthanWeiner20"
+              data-size=""
+              aria-label="Follow @EthanWeiner20 on GitHub"
+              >@EthanWeiner20</a
+            >
+          </div>
+
           <div class="social-button d-inline">
             <a
               class="github-button social-button"
@@ -153,11 +162,11 @@
             until pursuing a degree in Computer Science. During my brief period at college, I learned quite a lot about 
             programming fundamentals, discrete mathematics, and formal reasoning. However, I found the learning
             environment at college to be restricting, and I ended up deciding to pursue a journey to self-teach
-            the fundamentals of software engineering, with the help of a rigorous online program known as Launch School.
+            the fundamentals of software engineering, with the help of a rigorous mastery-based program known as Launch School.
             Since leaving, I have been honing in on my skills as a developer while working part-time. I completed
             Harvard's CS50x course, and I am diving into the core curriculum at Launch School.
             I have developed a variety of <router-link :to="{name: 'Projects'}">projects</router-link>along the way,
-            gaining some experience as a freelancer for my landscape design company and former high school.
+            gaining some experience as a freelancer for a small landscape design company and former high school.
           </p>
         </div>
         <div
@@ -167,7 +176,7 @@
           aria-labelledby="outside-software-tab"
         >
           <p>
-            Outside of the realm of software engineering, I am an avid long-distance runner, <a href="https://www.youtube.com/channel/UCsQWJH88fdSZDgZpAHFb11w" target="_blank">small Youtuber</a>, and landscaper.
+            Outside of the realm of software engineering, I am a competitive long-distance runner, <a href="https://www.youtube.com/channel/UCsQWJH88fdSZDgZpAHFb11w" target="_blank">small Youtuber</a>, and landscaper.
             I am passionate about mental health, psychiatry, and philosophy.
             I work for a small landscape design and maintenance company. Check out some of my designs!
             <ul class="mt-3">

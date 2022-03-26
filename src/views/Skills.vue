@@ -19,10 +19,11 @@
               </span>
               Javascript
             </th>
-            <td>My go-to language for application development.</td>
+            <td>Most familiar language for application development.</td>
             <td>
               <ul>
-                <li>Job Itinerary</li>
+                <li>Visualize the Web</li>
+                <li>Job Itinerary V1/V2/V3</li>
                 <li>Scholarship Portal</li>
                 <li>Playlist Blender</li>
               </ul>
@@ -49,8 +50,11 @@
               <ul>
                 <li>Familiar with Firebase (NoSQL) and SQL databases</li>
                 <li>
-                  Experience programming in C, Java, Python, and functional
-                  programming languages
+                  Moderate experience programming in C, Java, Python, Racket,
+                  and other languages.
+                </li>
+                <li>
+                  Woekd with the Ionic cross-platform framework and UI kit
                 </li>
                 <li>Experience working with APIs</li>
                 <li>
@@ -66,10 +70,10 @@
 
     <div
       class="d-none d-sm-block navigation navigate-right"
-      @click="routeToSkills"
+      @click="routeToWriting"
     >
       <div class="py-auto d-inline">
-        <span>Projects</span>
+        <span>Writing</span>
       </div>
       <span
         class="material-icons material-icons-outlined"
@@ -93,8 +97,8 @@ export default {
   },
   setup() {
     const router = useRouter()
-    const routeToSkills = () => {
-      router.push({ name: 'Projects' })
+    const routeToWriting = () => {
+      router.push({ name: 'Writing' })
 
       // Temporarily change the transition type
       transitionName.value = 'fade'
@@ -102,7 +106,7 @@ export default {
         transitionName.value = 'zoom'
       }, 500)
     }
-    return { routeToSkills }
+    return { routeToWriting }
   }
 }
 </script>

@@ -1,5 +1,17 @@
 {
   "projects": {
     "default": "ethan-weiner"
+  },
+  "targets": {
+    "personal-site-884eb": {
+      "hosting": {
+        "personal-site-884eb": [
+          "ethan-weiner"
+        ],
+        "ethan-weiner": [
+          "personal-site-884eb"
+        ]
+      }
+    }
   }
 }
